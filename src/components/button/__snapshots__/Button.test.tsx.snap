@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accepts color 1`] = `
+<button
+  className="Button__ButtonUI-sc-1b6loj5-0 ibYuGU"
+>
+  Click me
+</button>
+`;
+
+exports[`renders correctly 1`] = `
+<button
+  className="Button__ButtonUI-sc-1b6loj5-0 eFxyfD"
+>
+  Main button
+</button>
+`;
+
+exports[`renders with onClick function 1`] = `
+<button
+  className="Button__ButtonUI-sc-1b6loj5-0 eFxyfD"
+  onClick={[Function]}
+>
+  Click
+</button>
+`;
