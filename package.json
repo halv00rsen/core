@@ -70,7 +70,7 @@
     "url": "git+https://github.com/halv00rsen/core.git"
   },
   "author": "Jørgen Halvorsen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/halv00rsen/core/issues"
   },
