@@ -1,3 +1,10 @@
+# 1.0.0 (2021-03-14)
+
+
+### Features
+
+* initial release ([85a114f](https://github.com/halv00rsen/core/commit/85a114f0244c9c816f382354e49a37ac3caa0402))
+
 # 1.0.0 (2021-03-11)
 
 
