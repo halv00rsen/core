@@ -2,11 +2,11 @@
   "name": "@halv00rsen/core",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/index.js",
-  "module": "./lib/index.es.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "start": "start-storybook -p 6006",
-    "clean": "rimraf ./lib",
+    "clean": "rimraf ./dist",
     "build": "npm run clean && rollup -c",
     "test": "jest --watch",
     "test-ci": "jest",
@@ -15,14 +15,10 @@
     "storybook": "start-storybook -p 6006"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "pkgRoot": "lib"
-  },
-  "directories": {
-    "lib": "lib"
+    "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "lib",
+    "/dist",
     "README.md"
   ],
   "devDependencies": {

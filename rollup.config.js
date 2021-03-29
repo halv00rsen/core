@@ -11,13 +11,26 @@ export default {
     {
       file: packageJson.main,
       format: 'cjs',
+      exports: 'named',
       sourcemap: true,
     },
     {
       file: packageJson.module,
       format: 'esm',
+      exports: 'named',
       sourcemap: true,
     },
   ],
-  plugins: [peerDepsExternal(), resolve(), commonjs(), typescript()],
+  plugins: [
+    peerDepsExternal(),
+    resolve(),
+    typescript({
+      rollupCommonJSResolveHack: true,
+      exclude: ['**/__tests__/**'],
+      clean: true,
+    }),
+    commonjs({
+      include: ['node_modules/**'],
+    }),
+  ],
 };
