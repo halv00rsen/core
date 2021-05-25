@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/halv00rsen/core/compare/v1.0.0...v1.1.0) (2021-05-25)
+
+
+### Features
+
+* add more colors ([c4fc13a](https://github.com/halv00rsen/core/commit/c4fc13a3bed04156788fff284c172e0875ecebfe))
+* grid system ([40f12f4](https://github.com/halv00rsen/core/commit/40f12f49a502ade7ff66139b5dc8d62e288c0e85))
+* input component ([4ece4e5](https://github.com/halv00rsen/core/commit/4ece4e5fec53871c60051dac42f78eaf460b1b09))
+
 # 1.0.0 (2021-03-14)
 
 
