@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/halv00rsen/core/compare/v1.2.0...v1.3.0) (2021-05-26)
+
+
+### Features
+
+* added more colors ([1dc4208](https://github.com/halv00rsen/core/commit/1dc4208a3c8ed6c383a2e19f3025381d86dea800))
+* alert component ([46b8523](https://github.com/halv00rsen/core/commit/46b8523b952d3e4f12d84dca39cfe46ae72361bf))
+
 # [1.2.0](https://github.com/halv00rsen/core/compare/v1.1.0...v1.2.0) (2021-05-26)
 
 
