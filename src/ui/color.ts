@@ -5,6 +5,8 @@ const colors = {
   white: 'white',
   gray: '#d8d8d8',
   black: 'black',
+  transparent: 'transparent',
+  yellow: '#f2e449',
 } as const;
 
 export type Color = keyof typeof colors;
