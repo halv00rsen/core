@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/halv00rsen/core/compare/v1.1.0...v1.2.0) (2021-05-26)
+
+
+### Features
+
+* email validation function ([5cad2eb](https://github.com/halv00rsen/core/commit/5cad2ebc90c9b4e81b197eb87a435cf80edfefc0))
+
 # [1.1.0](https://github.com/halv00rsen/core/compare/v1.0.0...v1.1.0) (2021-05-25)
 
 
